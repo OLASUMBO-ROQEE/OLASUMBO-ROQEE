@@ -1,0 +1,1832 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='StudentPerformanceFactors (student performance)' inline='true' name='federated.0d5eaxe0l47hcj1di1jzp0p196jr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='student performance' name='excel-direct.0knep0o0ytbm1t1car63b03888rx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/hp/Downloads/student performance.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0knep0o0ytbm1t1car63b03888rx' name='StudentPerformanceFactors' table='[StudentPerformanceFactors$]' type='table'>
+          <columns gridOrigin='A1:T6608:no:A1:T6608:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Hours_Studied' ordinal='0' />
+            <column datatype='integer' name='Attendance' ordinal='1' />
+            <column datatype='string' name='Parental_Involvement' ordinal='2' />
+            <column datatype='string' name='Access_to_Resources' ordinal='3' />
+            <column datatype='string' name='Extracurricular_Activities' ordinal='4' />
+            <column datatype='integer' name='Sleep_Hours' ordinal='5' />
+            <column datatype='integer' name='Previous_Scores' ordinal='6' />
+            <column datatype='string' name='Motivation_Level' ordinal='7' />
+            <column datatype='string' name='Internet_Access' ordinal='8' />
+            <column datatype='integer' name='Tutoring_Sessions' ordinal='9' />
+            <column datatype='string' name='Family_Income' ordinal='10' />
+            <column datatype='string' name='Teacher_Quality' ordinal='11' />
+            <column datatype='string' name='School_Type' ordinal='12' />
+            <column datatype='string' name='Peer_Influence' ordinal='13' />
+            <column datatype='integer' name='Physical_Activity' ordinal='14' />
+            <column datatype='string' name='Learning_Disabilities' ordinal='15' />
+            <column datatype='string' name='Parental_Education_Level' ordinal='16' />
+            <column datatype='string' name='Distance_from_Home' ordinal='17' />
+            <column datatype='string' name='Gender' ordinal='18' />
+            <column datatype='integer' name='Exam_Score' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0knep0o0ytbm1t1car63b03888rx' name='StudentPerformanceFactors' table='[StudentPerformanceFactors$]' type='table'>
+          <columns gridOrigin='A1:T6608:no:A1:T6608:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Hours_Studied' ordinal='0' />
+            <column datatype='integer' name='Attendance' ordinal='1' />
+            <column datatype='string' name='Parental_Involvement' ordinal='2' />
+            <column datatype='string' name='Access_to_Resources' ordinal='3' />
+            <column datatype='string' name='Extracurricular_Activities' ordinal='4' />
+            <column datatype='integer' name='Sleep_Hours' ordinal='5' />
+            <column datatype='integer' name='Previous_Scores' ordinal='6' />
+            <column datatype='string' name='Motivation_Level' ordinal='7' />
+            <column datatype='string' name='Internet_Access' ordinal='8' />
+            <column datatype='integer' name='Tutoring_Sessions' ordinal='9' />
+            <column datatype='string' name='Family_Income' ordinal='10' />
+            <column datatype='string' name='Teacher_Quality' ordinal='11' />
+            <column datatype='string' name='School_Type' ordinal='12' />
+            <column datatype='string' name='Peer_Influence' ordinal='13' />
+            <column datatype='integer' name='Physical_Activity' ordinal='14' />
+            <column datatype='string' name='Learning_Disabilities' ordinal='15' />
+            <column datatype='string' name='Parental_Education_Level' ordinal='16' />
+            <column datatype='string' name='Distance_from_Home' ordinal='17' />
+            <column datatype='string' name='Gender' ordinal='18' />
+            <column datatype='integer' name='Exam_Score' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T6608:no:A1:T6608:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hours_Studied</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hours_Studied]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Hours_Studied</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attendance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Attendance]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Attendance</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parental_Involvement</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Parental_Involvement]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Parental_Involvement</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access_to_Resources</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Access_to_Resources]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Access_to_Resources</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extracurricular_Activities</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Extracurricular_Activities]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Extracurricular_Activities</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep_Hours]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Sleep_Hours</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Previous_Scores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Previous_Scores]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Previous_Scores</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Motivation_Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Motivation_Level]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Motivation_Level</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Internet_Access</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Internet_Access]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Internet_Access</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tutoring_Sessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tutoring_Sessions]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Tutoring_Sessions</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family_Income</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Family_Income]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Family_Income</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teacher_Quality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Teacher_Quality]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Teacher_Quality</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[School_Type]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>School_Type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Peer_Influence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Peer_Influence]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Peer_Influence</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physical_Activity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Physical_Activity]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Physical_Activity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Learning_Disabilities</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Learning_Disabilities]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Learning_Disabilities</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parental_Education_Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Parental_Education_Level]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Parental_Education_Level</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distance_from_Home</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Distance_from_Home]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Distance_from_Home</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exam_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Exam_Score]</local-name>
+            <parent-name>[StudentPerformanceFactors]</parent-name>
+            <remote-alias>Exam_Score</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Access to Resources' datatype='string' name='[Access_to_Resources]' role='dimension' type='nominal' />
+      <column caption='Distance from Home' datatype='string' name='[Distance_from_Home]' role='dimension' type='nominal' />
+      <column caption='Exam Score' datatype='integer' name='[Exam_Score]' role='measure' type='quantitative' />
+      <column caption='Extracurricular Activities' datatype='string' name='[Extracurricular_Activities]' role='dimension' type='nominal' />
+      <column caption='Family Income' datatype='string' name='[Family_Income]' role='dimension' type='nominal' />
+      <column caption='Hours Studied' datatype='integer' name='[Hours_Studied]' role='measure' type='quantitative' />
+      <column caption='Internet Access' datatype='string' name='[Internet_Access]' role='dimension' type='nominal' />
+      <column caption='Learning Disabilities' datatype='string' name='[Learning_Disabilities]' role='dimension' type='nominal' />
+      <column caption='Motivation Level' datatype='string' name='[Motivation_Level]' role='dimension' type='nominal' />
+      <column caption='Parental Education Level' datatype='string' name='[Parental_Education_Level]' role='dimension' type='nominal' />
+      <column caption='Parental Involvement' datatype='string' name='[Parental_Involvement]' role='dimension' type='nominal' />
+      <column caption='Peer Influence' datatype='string' name='[Peer_Influence]' role='dimension' type='nominal' />
+      <column caption='Physical Activity' datatype='integer' name='[Physical_Activity]' role='measure' type='quantitative' />
+      <column caption='Previous Scores' datatype='integer' name='[Previous_Scores]' role='measure' type='quantitative' />
+      <column caption='School Type' datatype='string' name='[School_Type]' role='dimension' type='nominal' />
+      <column caption='Sleep Hours' datatype='integer' name='[Sleep_Hours]' role='measure' type='quantitative' />
+      <column caption='Teacher Quality' datatype='string' name='[Teacher_Quality]' role='dimension' type='nominal' />
+      <column caption='Tutoring Sessions' datatype='integer' name='[Tutoring_Sessions]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='StudentPerformanceFactors' datatype='table' name='[__tableau_internal_object_id__].[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]' role='measure' type='quantitative' />
+      <column-instance column='[Parental_Involvement]' derivation='None' name='[none:Parental_Involvement:nk]' pivot='key' type='nominal' />
+      <column-instance column='[School_Type]' derivation='None' name='[none:School_Type:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/hp/AppData/Local/Temp/TableauTemp/#TableauTemp_0dufrwk0fb3w13191pyi5057paju.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/03/2024 12:50:36 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Hours_Studied</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hours_Studied]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hours_Studied</remote-alias>
+              <ordinal>0</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Attendance</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Attendance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Attendance</remote-alias>
+              <ordinal>1</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Parental_Involvement</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Parental_Involvement]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Parental_Involvement</remote-alias>
+              <ordinal>2</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Access_to_Resources</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Access_to_Resources]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Access_to_Resources</remote-alias>
+              <ordinal>3</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Extracurricular_Activities</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Extracurricular_Activities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Extracurricular_Activities</remote-alias>
+              <ordinal>4</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sleep_Hours</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sleep_Hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sleep_Hours</remote-alias>
+              <ordinal>5</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Previous_Scores</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Previous_Scores]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Previous_Scores</remote-alias>
+              <ordinal>6</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Motivation_Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Motivation_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Motivation_Level</remote-alias>
+              <ordinal>7</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Internet_Access</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Internet_Access]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Internet_Access</remote-alias>
+              <ordinal>8</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tutoring_Sessions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tutoring_Sessions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tutoring_Sessions</remote-alias>
+              <ordinal>9</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Family_Income</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Family_Income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Family_Income</remote-alias>
+              <ordinal>10</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Teacher_Quality</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Teacher_Quality]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Teacher_Quality</remote-alias>
+              <ordinal>11</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>School_Type</remote-alias>
+              <ordinal>12</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Peer_Influence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Peer_Influence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Peer_Influence</remote-alias>
+              <ordinal>13</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Physical_Activity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Physical_Activity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Physical_Activity</remote-alias>
+              <ordinal>14</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Learning_Disabilities</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Learning_Disabilities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Learning_Disabilities</remote-alias>
+              <ordinal>15</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Parental_Education_Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Parental_Education_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Parental_Education_Level</remote-alias>
+              <ordinal>16</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Distance_from_Home</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Distance_from_Home]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Distance_from_Home</remote-alias>
+              <ordinal>17</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>18</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Exam_Score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Exam_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Exam_Score</remote-alias>
+              <ordinal>19</ordinal>
+              <family>StudentPerformanceFactors</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Parental_Involvement:nk]' type='palette'>
+            <map to='#e15759'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+            <map to='#f9856e'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:School_Type:nk]' type='palette'>
+            <map to='#e15759'>
+              <bucket>&quot;Public&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Private&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='StudentPerformanceFactors' id='StudentPerformanceFactors_230B463D4AA745CDBD5687C3C509D62A'>
+            <properties context=''>
+              <relation connection='excel-direct.0knep0o0ytbm1t1car63b03888rx' name='StudentPerformanceFactors' table='[StudentPerformanceFactors$]' type='table'>
+                <columns gridOrigin='A1:T6608:no:A1:T6608:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Hours_Studied' ordinal='0' />
+                  <column datatype='integer' name='Attendance' ordinal='1' />
+                  <column datatype='string' name='Parental_Involvement' ordinal='2' />
+                  <column datatype='string' name='Access_to_Resources' ordinal='3' />
+                  <column datatype='string' name='Extracurricular_Activities' ordinal='4' />
+                  <column datatype='integer' name='Sleep_Hours' ordinal='5' />
+                  <column datatype='integer' name='Previous_Scores' ordinal='6' />
+                  <column datatype='string' name='Motivation_Level' ordinal='7' />
+                  <column datatype='string' name='Internet_Access' ordinal='8' />
+                  <column datatype='integer' name='Tutoring_Sessions' ordinal='9' />
+                  <column datatype='string' name='Family_Income' ordinal='10' />
+                  <column datatype='string' name='Teacher_Quality' ordinal='11' />
+                  <column datatype='string' name='School_Type' ordinal='12' />
+                  <column datatype='string' name='Peer_Influence' ordinal='13' />
+                  <column datatype='integer' name='Physical_Activity' ordinal='14' />
+                  <column datatype='string' name='Learning_Disabilities' ordinal='15' />
+                  <column datatype='string' name='Parental_Education_Level' ordinal='16' />
+                  <column datatype='string' name='Distance_from_Home' ordinal='17' />
+                  <column datatype='string' name='Gender' ordinal='18' />
+                  <column datatype='integer' name='Exam_Score' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Exam score by school type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='StudentPerformanceFactors (student performance)' name='federated.0d5eaxe0l47hcj1di1jzp0p196jr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d5eaxe0l47hcj1di1jzp0p196jr'>
+            <column caption='Exam Score' datatype='integer' name='[Exam_Score]' role='measure' type='quantitative' />
+            <column caption='School Type' datatype='string' name='[School_Type]' role='dimension' type='nominal' />
+            <column-instance column='[School_Type]' derivation='None' name='[none:School_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Exam_Score]' derivation='Sum' name='[sum:Exam_Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]' />
+              <wedge-size column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Exam_Score:qk]' />
+              <size column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Exam_Score:qk]' />
+              <text column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Exam_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0AA4148B-0DF3-4DBE-A5B5-59DF01AF3696}' />
+    </worksheet>
+    <worksheet name='Hours studied by parental involvement'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='StudentPerformanceFactors (student performance)' name='federated.0d5eaxe0l47hcj1di1jzp0p196jr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d5eaxe0l47hcj1di1jzp0p196jr'>
+            <column caption='Hours Studied' datatype='integer' name='[Hours_Studied]' role='measure' type='quantitative' />
+            <column caption='Parental Involvement' datatype='string' name='[Parental_Involvement]' role='dimension' type='nominal' />
+            <column-instance column='[Parental_Involvement]' derivation='None' name='[none:Parental_Involvement:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hours_Studied]' derivation='Sum' name='[sum:Hours_Studied:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Parental_Involvement:nk]' />
+              <text column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Hours_Studied:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Hours_Studied:qk]</rows>
+        <cols>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Parental_Involvement:nk]</cols>
+      </table>
+      <simple-id uuid='{7299FEA3-2613-43AA-AE13-89AB1BC9104D}' />
+    </worksheet>
+    <worksheet name='KPI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='StudentPerformanceFactors (student performance)' name='federated.0d5eaxe0l47hcj1di1jzp0p196jr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d5eaxe0l47hcj1di1jzp0p196jr'>
+            <column datatype='integer' name='[Attendance]' role='measure' type='quantitative' />
+            <column caption='School Type' datatype='string' name='[School_Type]' role='dimension' type='nominal' />
+            <column-instance column='[School_Type]' derivation='None' name='[none:School_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Attendance]' derivation='Sum' name='[sum:Attendance:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]' value='118' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Attendance:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]</cols>
+      </table>
+      <simple-id uuid='{34415729-DE75-41CE-9C21-AC403E7A93E7}' />
+    </worksheet>
+    <worksheet name='Physical activity by teacher quality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='StudentPerformanceFactors (student performance)' name='federated.0d5eaxe0l47hcj1di1jzp0p196jr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d5eaxe0l47hcj1di1jzp0p196jr'>
+            <column caption='Physical Activity' datatype='integer' name='[Physical_Activity]' role='measure' type='quantitative' />
+            <column caption='Teacher Quality' datatype='string' name='[Teacher_Quality]' role='dimension' type='nominal' />
+            <column-instance column='[Teacher_Quality]' derivation='None' name='[none:Teacher_Quality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Physical_Activity]' derivation='Sum' name='[sum:Physical_Activity:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='div-level' scope='rows' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Physical_Activity:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ff9d9a' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Teacher_Quality:nk]</rows>
+        <cols>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Physical_Activity:qk]</cols>
+      </table>
+      <simple-id uuid='{91BFB648-B1B9-4733-BCFB-1266B7BA02CD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' preset-index='1' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='88125' id='11' type-v2='text' w='100000' x='0' y='11875'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='11875' id='13' type-v2='text' w='100000' x='0' y='0'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='26'>STUDENT PERFORMANCE</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone h='28875' id='3' name='Hours studied by parental involvement' w='42900' x='44600' y='14125' />
+        <zone h='22875' id='6' name='Exam score by school type' w='45300' x='46000' y='44375' />
+        <zone h='32500' id='9' name='Physical activity by teacher quality' w='40000' x='2100' y='35750' />
+        <zone h='14250' id='10' name='KPI' w='38300' x='2600' y='17500' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='11875' id='13' type-v2='text' w='100000' x='0' y='0'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='26'>STUDENT PERFORMANCE</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='88125' id='11' type-v2='text' w='100000' x='0' y='11875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='231' h='28875' id='3' is-fixed='true' name='Hours studied by parental involvement' w='42900' x='44600' y='14125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='114' h='14250' id='10' is-fixed='true' name='KPI' w='38300' x='2600' y='17500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='260' h='32500' id='9' is-fixed='true' name='Physical activity by teacher quality' w='40000' x='2100' y='35750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='183' h='22875' id='6' is-fixed='true' name='Exam score by school type' w='45300' x='46000' y='44375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1A347F0C-5057-4690-84E0-96230CC7D89C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F8682E39-C726-4182-BDED-B2BD319B70D5}' />
+    </window>
+    <window class='worksheet' name='Hours studied by parental involvement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Parental_Involvement:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Parental_Involvement:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E56B4BB3-0419-4365-AE30-4488D45E1560}' />
+    </window>
+    <window class='worksheet' name='Exam score by school type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[sum:Exam_Score:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7DD7C67C-95FA-4774-98FD-89579C903588}' />
+    </window>
+    <window class='worksheet' name='Physical activity by teacher quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Teacher_Quality:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{48BDCD9C-22F0-4F29-A813-734C61009B27}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Exam score by school type'>
+          <highlight field='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:School_Type:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Hours studied by parental involvement'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0d5eaxe0l47hcj1di1jzp0p196jr].[none:Parental_Involvement:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='KPI' />
+        <viewpoint name='Physical activity by teacher quality' />
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{32EEF9F3-0F0A-4F8F-A432-48334C6D453D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='Exam score by school type' width='164'>
+      iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAQrUlEQVR4nO3de1zUdb7H8dcPZmCYAbnIZQAhdNFKq10vZblp25qWlt2s08PMLM9D3Udp
+      YmWdYnfVNrfWyughp5Pu2do26XLarT3dtMtWaltSB+2ReKPZJBDwAnIbmIEZ+J0/RhQRkEHg
+      953x83w85iHy5ff9fXDe/ub7+8339x1N13UdIRQRYnQBQrQngRRKkUAKpUgghVIkkEIpEkih
+      FAmkUIoEUihFAimUIoEUSpFACqVIIIVSJJBCKRJIoRQJpFCKBFIoRQIplCKBFEqRQAqlSCCF
+      UiSQQikSSKEUCaRQigRSKEUCKZQigRRKkUAKpUgghVIkkEIpEkihFAmkUIoEUihFAimUIoEU
+      SpFACqVIIIVSJJBCKRJIoRQJpFCKBFIoRQIplCKBFEqRQAqlSCCFUiSQQikSSKEUCaRQisno
+      AgJZa10dzfuL8VSU4ykrx1teQUttLbrbTavLhe5ykXbtzWA2gdkMFgtER0HMIN+fg+PAEm70
+      r6EUCaQf9KYm3IWFuAt34d61C09J6ek3amr2PQCohYpDJ7fHxkBKIiQnQYodTKF9XncgkUCe
+      jq7j3rOHhi1bceXn0+py923/1TW+x64i35E0Iw0yh4I9ATStb/cVAGQM2QXd48H58SeUL8ni
+      8GOP0/D55r4PY0ceL3y/HzZ+Cn99D/Y6oKXljLr0Oov4MGcJM0fbWbixfUs9O16cz+T0WDRN
+      Q4tNZ3L2ZqqPt29koab52o49JuQ4Ot+Ju4KCvFXMmpzOlI4/4y5k/e2jsds0NJudiVnvUOI9
+      3khFQR6rZk0mfUoODiSQp9Cbmqh//wPKFy/h6J9exHv4iDGF1DfAl/8Hb74HhfvA25tgOnjh
+      7vvYcs69vLzyhg5tVZQ0Tmft9lI8uo6n9J8sqpzP4r/V+5qL/8UP936EruvHH19mZXa6l43/
+      cSMvNExkzXP3M6xD2xe/ncWnU9/AUaujV+1gVewz3Lx6Z9uG3PhCAxPXPMf9xzaUl+x2XAUF
+      VL/0Mt7KSqNLOaHRBV/vgN1FcOkYSE/1Y+NMFr25yfflxo5tGdywKOPEXyPTmHHt5fx3ZSMQ
+      BQdKCMu8pkd7mZaTzzQAx/YOLcV8mz+BuatHEAlgSmbSw1mMXHIAuBCm5ZDv25C2LeUICXgr
+      Kzny1NMceeoZtcLYnrMBPtnqezgb+rZvdw27P/w9s55P5pFbkwCoLythyLmdHxF7LoOb5h5m
+      zdPf4vQC7gq2/OFV4m65vMstzvpANuZ/zcFlD+Mq6Pi/W1ElZfD3TVB8oA86c5AzQUOLiOWG
+      PyXwyOsruTzK11J1pIL107UT48v5r7PX231vnUmd9xrPWR5lqFlDi5hEbvpKnpwS1eXPn7WB
+      1D0eqv/8FyqfzaHV5TK6HP80e+DTL2DbdmhpPYOOMsn6Ukf31PPVinQ2zZ9FzrHUZSzafHzs
+      6Cn9J8vPfYXbl+f72b+XvTlzeCo2h/0eHd21hUW1y5mT28XJEWdpIFudTg4/vor6TZuMLuXM
+      7C6CTZ+2u87ZS6ZI4kdezaNP/Jy3cz/rpDmNSQ8u4uIvvqHYr44/I/ftn5M9ewSRJsCSzKSs
+      ecS9+h5dRfKsC2RLVRWHVqykaV+R0aX0jUOV8P4n0NDo33bF/0tuXgH7a45dynJXsCXvbRpS
+      7ICDdfOzeHt3De62tpVPUnD1FWT4tZORjIl7jfWbSn1jSK+Torw8PhuWRlIXW5xVgfSUV3Dw
+      N8vxHCgzupS+VVMH730CtfUdGtpdS5y+/sSYcOFGGHweCbtXcPN5g33fSx7PyuoHeOuhC4FM
+      5j5yBZsXX0SypqENHk328TagbD1TM7LxvYAfG4dqGtrwpaxfOtz39YQcHKQy78XVRP/nNNLM
+      Glp0Jre9P44Na2cSBThyJhy7xjmcpeuXMlzT0HRd1wfy384oLVVVHPzNclqOHh3Q/aZPvX7g
+      dmazwnVX+f7sR2Xrr+WB6A28fltsn/d9VhwhW51ODj/x5ICHccA1NMKHn5/5mLJbDt52zOSZ
+      fggjEPxHSN3j4fDjqwwbMw7oEbJNUjxM+yWEBN7xJvAq9lNN3mvBcwLTU4cq4Ztvja6iV4I6
+      kI1ffxP4l3Z6a1cR/NgXF88HVtAG0ltZydEX1hldhrG25vf924z9LGgDWf3Sn2lt9PPaXLBp
+      9vjezQkgQRlIV0FB4Lw33d9KynyPABF0gdSbmqh+6WWjy1DLtu29nE858IIukM5P/qHuFDKj
+      OBtgX9cTGlQSVIHUPR7q3n3P6DLUtHPvGd8OMRCCKpANn2+mpabG6DLU1Ojy3a+juOAJpK5T
+      9+67Rlehtp17QPE35oImkO49e4y7IStQ1DfAIbX/jYImkA1bthpdQmBwFBtdQbeCIpB6UxON
+      2/ydXn+W2l+i9CWgoAiku7AQ3d3PN/EHC48Xyg8aXUWXgiSQu4wuIbBUHDa6gi4FRyB3SSD9
+      0nHBK4UEfCBb6+p6tgqZOOFoDbibjK6iUwEfyOb9xUaXEJiqqk//MwYI+EB6KsqNLiEw1dYZ
+      XUGnAj+QZRLIXjnlllk1BHwgveUVRpcQmOQI2T9aamuNLiEw9ffiq70U8IGUC+K95OnFUmYD
+      IOADGXArl6nC4zG6gk4FfCBVP0K6qw6rOeVL0SNkwC/prFks6A3q3up5uGCb7wtNA13HZLVh
+      Sx6CLTkVkzXSuMJMaj71alblh5CICFoVDuRxx46SXlcjtT/so/ZfRYRFR2OzD8GanEpo2AB/
+      gJJZzadezar8oFksRpfgn+Mv3zrNdbU019VQXVSIJTYeW/IQIpJSCBmIo5cEsn+ERkfjORB4
+      S4YAJ40t3TVHcR+thD07sSYkYU1OJSI+ES2knz7ZK9LWP/2eoYAPpCklGYJhtk/rsbXCW1to
+      PHyQxkPlaGYztqRkrPYhWOLi+3Z/UQaOX7sR8IE0p6YYXULf033h1D0eGspKcR4oITTc4htv
+      pqQSFhV95vuQI2T/MCcHYSDbaVu+s6W5ifoSB3U/OjBHRmGzp2JNHoIpoper5cbF9GGVfSfg
+      Axk2NMPoEgaGrtM24vQ0OKlx7KPGsY/w2Fis9lRsSSmE+HOmnjC4X8o8UwEfyJBBgzCnp51d
+      k3TbnQw111TTVH2Umn2FWOISsSanYk20o4V289TGDIIw8wAU6r+ADySAZdSosyuQ7bS9pOut
+      Oq6qI7gqD3E0NJSIRDs2+xAs8YloHT/m2J5oQKU9ExyBvGAU9RvP0pVy22s7GWppwXWonMaK
+      MkLMYVjtKdjsQwiPifW9Y+TXB3gOrCAJ5AWERFj6//OsA4je6jtytnqacZb9iLO0mNAIK3Gj
+      fkpEclcfW2S8gJ9cAaCFhxMxfrzRZajrWDhbXI24bGEQqu7Trm5lfrJNmmh0CQEhcspVRpfQ
+      raAJpOX88zElJhhdhtLCR4wgLPMnRpfRraAJJJrGoBkzjK5CaVHXTjO6hNMKnkACtl9cQWiM
+      mu9AGM2UkIB13DijyzitoAqkZjYzaMZ1RpehpKhpV0NoP80c6kNBFUiAyKsmY0qQsWR7pqQk
+      Iq9S+2SmTdAFUgsPJ/auO40uQylxC+ajhYUZXUaPBF0gASLGjiVi7Bijy1BC5JW/wDJqpNFl
+      9FhQBhIg9u67CLH27weZqy40JoaYO2YbXYZfgjaQpvh44n610OgyDBV7912E2NSciNuVoA0k
+      gPWSi4m65hqjyzBE5NQpWMdfYnQZfgvqQALEzJ5F+LkjjC5jQEWMG0vcXXONLqNXgj6QmtlM
+      wrIHMQ9Rd8pVXwofnkn84kUQEphPbWBW7aeQyEgSH32E0MFqTtvvKya7nYSHlqGFD/CiA32o
+      B4EsZ2P2DEbbbWiahs0+mttf3MvxlWG8Jbyx4AJiNQ2bfSLZm9stFVy9mezJ6cfbst4pocsV
+      Zbrr5zgHuVfY0Cbk4Gj3vZwJGprW7rFw4ylbhsbFkZj9aNCGMjQujsRHHiYkKsroUs7I6QPp
+      KqXynGW8tbcKXdep2vtHxrx8B6t3+poduXN4PvWPFHl0qr78FT/OX8zf6gHKeHHe44Qtz6dC
+      16l1rGX4ujnHt+uo635OqH7j17w5YyV3n/Td/Thsa9mv6+htj3WdTyIwpyRj/93KoHv5Dhs2
+      DPuq32FKUnfibU+dPpAR45mzYBJDY3xLllhixnHdjDhqagF2kPc/Y3ks+zISTGAZNps/PHiY
+      Nz+oB74jP+oeHp6UjAUwRf6Me5+7ie/e2tHJTrrr55jqd3jgL+NYlzWKk25POlTK/mE/IaOH
+      v3BoXBxJK5YHzYmO9bJLSVr+G0JjY40upU/4NYb0OkspyFtEVv4cFlwOcJDy9PGMaXcjROqk
+      qYSVlgFDOGd3DrnfOn0v014nlc0hVO8p4tTVrbvrB8DLF0+s5ZzHsziv400X5aVEnT/cn1/D
+      N6b8dTZR0wL7klD0LTOJv29xQI8ZO+phIDeyUNMwR41h6c6p/Ncrc8gEaGzAGT2Ik0YtJhOO
+      7/cDF/LQhrlsvzuTaE1DSxjJbc/mU19SwSkf29NtP+DdsYo1ttVkj+7kFqDKI7y7dLhv7Giz
+      M3rGKjodfnagmc3Ezr2T+PuXBtw7OiFRkcQvuY/oW2b6btoKIj0M5DTW6Tq663tevrWeZ25c
+      xMZqwGojsrbu5COe10vm8KEAmM6bx6s7DtKg6+jVJfwj+zLMF57rC3N73fbjIPexBu7PHt35
+      HWlTcn396zp61V7y5pWwdN4rp4a+C9ZLLsa++kkixo7t4RbGivzllaSsWYP1skuNLqVf+HfZ
+      xxLD0LGzyV3i4cm8YsBOSkk+29udOpdt+YjmtM5PGso+eofwsRd10tJNPx/nkP33p5hobjuL
+      ns76r5YyXJtAjqNDN5YYRt60jDuP5vOdH7+WKT6ehGUPkLDsQWWnrpnT00l6bAVxC+YTouhC
+      UX3h9IHMf4Xff7ibSqcvLV5nEXl5n5GWPBgYzex/K+C3q77iiBfcP+Tx8NOJ3Drd9+J7aO+3
+      lDq9gJcjX63k9qdHsGxWZ2Htpp/2R0BdR9c/YMFlz/K9/iVZmfDxilvJ2VKKbzdOivJW8Hza
+      lfTm+BExdgzJT68m9s47lJl5HjpoELF33kHyE6sIHxEcJ2LdOX0g087B+tfFjEkzo2ka0Zm3
+      8f64Dayd6Qtd5qJXuKdsPiPMGoMn5DFyw1pmtg0G963j+sxoNC2aC+/Zx9x3cpjS1la2nqkZ
+      2bR9ynW3/XTjynvvhxeuJzNaQzOncfP749iwdia9vRqnhYcTNX06KWufI+7f5xl241j4+ecR
+      v2QxKc/nEjV9ekDM9u4Lmq4bsyJ72fpreSB6A6/fpvjlCl2nac9eGrZupXHbtn5djCAkwoJ1
+      4kSiplyFOS2t3/ajMoMC6SD3oS3ctHoegXSJWm9qwl1YiHvXbtyFu/CUlJxxnyZ7EhEX/RTL
+      6J9hGXl+UF3C6Q3DjpDBoLWujubiYjzlFXjKy/GWV9BSW4vuctHqdqO7XGhhYWjh4YRYrYQm
+      xGNKSMCUlERYRgZhQzMIiQzeE5TekEAKpZwVs31E4JBACqVIIIVSJJBCKRJIoRQJpFCKBFIo
+      RQIplCKBFEqRQAqlSCCFUiSQQikSSKEUCaRQigRSKEUCKZQigRRKkUAKpUgghVIkkEIpEkih
+      FAmkUIoEUihFAimUIoEUSpFACqVIIIVSJJBCKRJIoRQJpFCKBFIoRQIplCKBFEqRQAqlSCCF
+      UiSQQin/DzJ5bQGiaSXGAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Hours studied by parental involvement' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAaTklEQVR4nO3deXxcdb3/8dc5s2Ym2ySZ7EvTJE1aupdutAUKpbQssogCoiCgwEXUKz8F
+      4XdVXFERhF79XX6gIgpXEb3sa9mhe9ItaZulTZptmn2bZPaZc/9oLK00hSZTZtrzeT4e/WOW
+      c/qdyfd9zvmeOef7UTRN0xBChxRFUdRYN0KIWJIACF2TAAhdkwAIXZMACF075QIQDocJhUKx
+      boY4SZxyAdA0DTmzKz6pUy4AQhwPCYDQNQmA0DUJgNA1CYDQNQmA0DUJgNA1CYDQNQmA0DUJ
+      gNA1Y2z+W41wKEggEOLDixZUTBYzRlUhHPQTCEVQDCYsZiOqohEKRVBVA6oKkXCYcASMRgOK
+      osTmI4hTQowCEKJr30bWvrqNfkALB3CHkzjr4s+yqDDCupdeoMY1jJJUxHmfWU15hpeqqmYm
+      TSolM8NEW80m6n1OFs+twG6KzScQp4YYBcBETvmZXFt+JgC+gXZ2VjeRk+vAvfcFejPP5YZL
+      cxmpXcvr21yUnuc4tKSnr4W9XVA6rxibSbb+YmLiYgww2NHAcEIR2UlGelq9TJ4zCbvJQubU
+      OaQPHmDk0DuD7Nu6A1vxTPIdVqT7i4mK0R7gMOFB9tWOMHlVHiYlRMCXQFLiaNc2JpAw3Mcg
+      QMcO/vzaC9imr+KLRSkYj9H7A4EAgUDg02i9+KQiQVw1b/LYI3/kvVo3My74d+68aRIv/uw+
+      /rqhgQAQ8Y8QWHQra+/9EokWw+iCIdp2fcAb//MP9uZeyu3XnEsaHbz0yAM8/MwWhgEt6CMw
+      7RJ+98OvMy3Hjhbq4a1HfsL9VRU89vtbyDpGs2IcgAju+k105p3OIqsKqFisXtxuDVIUCHrw
+      JKaRAriyZ/GlRZ/BVfUS2xsmsajCiXmM/ZfZbMZkksFBPPF01/LO61XMuvVh7pnnxN8zjCEz
+      jdseepLbADQ/DW/+g/XKDFJTkrAYDm7hNK2Hhu3tzF91EcaRbKwJduy2Ej5/12/5/F2AFsK1
+      /S3eaVYpynNitwRp27KNhuwSZimJWO127MdoV2wPgQLdbN1nZMGMzEMNSS+0sW9rEyMBP527
+      t9GXmnPYBzBRvnAxkfZdNHcNI7e9nDwG+xsYsS9l5dw8zKqZpMw0bIe9HhxoYXuXwvTiQsyG
+      D3fvipLBRTfdxIJJKRiO0lvDvkHqmltJy5tBegL4BlxU1nYxf/58Muwfv32PYQA0+vbWMZxd
+      TI7lw2dTS88gs+dNHvnP3/D37bBoTh6Gw5ZKcBRyWpGV2j21DHjl1seTRXiwjd01a7njytWc
+      s/ISfvH0TtyR0Re1EK79rYQNTgrzk49rbOfub6G93U7FdCeqBu2179GXuoA5JelH9JuxxPQQ
+      yFGxhFWoKId9ZNXqZNnlX2ZxWENRDRgNKmBm/vwUFEVBUSCjdAGrSzQMalyM4cUnoBgTmDT7
+      Yq6//kcka0O8/Idf8N/rvs/NyzII+4fYW70N++k3kWE+nu4fpPndl/DP/xpFCSqM1PDff6hl
+      zq2z2V9bT0efi6bGA6QW5mAbo6fHMAAKimr4SEoVRUExmDD/ywuqethuUVViPXgRx8mWM50c
+      anGHTWQlO8guyKLX4wPA01FFrXsmV1UkHdfWP9JXxdv7p3HllQ4UQOtso13rZP9vHwL62L6r
+      H9Pfp5B965WUJB59HdKPxKciKaWUqUUbePxnd9Dn18grW8Rl5+QAI+x8YSNZF3yH9NEduhZw
+      s3XDewylz2PZtGEe/bf72O5up3bAzPvPFTL/ym9x2/JMdj33PimrbyBndDll8ioe/v2q0f9x
+      Oz/9ShXX33Elucdol3KqTY4bCoXQNE3OAsUbTSPg6ae9rZ1BP6TnlpCXYUMlRH9bF6bcXBJH
+      O7K3p5nnn3qC7ItuZ1lhmP3bGw6eCgdQVJLzyihxWhh0daE4M0k2He1o30NHi5f0wnTG6gmK
+      oigSABF3BvoqqdqRyfLlhSf0LI0EQOiaTI8udE8GweKEivj9aHFyWYqiqqj2I38XlgCIE2ro
+      2ecYeubZWDcDAGN2FrkP/vqI5+QQSOiaBEDomgRA6JoEQOiaBEDomgRA6JoEQOiaBEDomgRA
+      6JoEQOiaBEDomgRA6JoEQOiaBEDomgRA6JoEQOiaBEDomgRA6JoEQOiaBEDomgRA6JoEQOia
+      BEDomgRA6JoEQOhaTGeGiwRG6OnqYsATwpqcTpYzDbMaZrjHReeAF9WWTkFOGiY1xNCQH6s1
+      AbNZJegZYiigkpKciFGVYqli/GIXgPAI+2sq2dnYRUgxkJJTij0ljZRgC++/tQG3aiTk1+g7
+      6yJOLwiwZ89opfg0labdVRxQi1gwMxGj7MPEBMQsAP6+dhq6/JQvWU15to1IKISiQnf1JkIl
+      K7h0tgN/y/s8t6OV2QUfVnp19zTR0pfAaWcUYj1WsWAhPoEYBSDCYJ+PhMRUHLYIbvcIJrMF
+      q1Gjv0Nh8nlOLEYFy6Tp5G7dwxBZEA4wMtzLvuoanIsuIctuGrOelKZpRCKRMV4Vn6a4Kj6h
+      8ZF+EbMAhPDR31TDq/XbGPFDcm4FZy6dRzBkJsEy2rVVIwbPMB6Avn28tnEdxsLTuTzVwrEO
+      /UOhEKGQlFCNB+E4+jtomobP5zviuRgFQMVsTCC9dBbL5s4hVR2hZv1m2tt7SU0Ypq8/Aukq
+      +AcZSEgjFWh3TuXy+avpq32THdUtLJpbhG2MQrAmk0kqxMSJgDF+ZuBXVAWbzXbEczEaQqqk
+      pCUTdA/Q0TeCFgnh1zRMRjM5JRns3bCLQb+X5spNjGQVHFZR3EjJ3EWY3ftobBtADnLERMXs
+      HIoxNZ950zLY8/Jj/GrNk7SQRVlpFinFZzLdtI3fP7SGVw/ksXJ+NioGrFYLBoOKKTGH2VOc
+      uFoaGfDEz+5VnJykSJ44oQae+lvcVoiRInlC9yQAQtckAELXJABC1yQAQtckAELXJABC1yQA
+      QtckAELXJABC1yQAQtckAELXJABC1yQAQtckAELXJABC1yQAQtckAELXJABC1yQAQtckAELX
+      JABC1yQAQtckAELXJABC1yQAQtckAELXJABC1yQAQtckAELXJABC1yQAQtckAELXYljBzMeB
+      +joaWnsIAqaULKZWVJBhg+7GndS2DmJML2bOtEISjAE6OtwkJ6disxnx9nXQ4TWQm+3EYpBa
+      wWL8YrcHCA5R39hGIGImMTERe4IVowqhgTo+2NJCxGykf88HbGoaAbw0N7fjdvuJ+N3sravB
+      1R8Ys06wEJ9UzPYAmtdLJMnJ1GmzyXOYDz3fWrmVxHmXs6w0gVCvlaffbyRQVnjo9T5XPR2e
+      DE6fl4NJtv5igmIWgJDfR2ikh/2NDQwlWknLzCEj1cpQXwKFi+0YVDA4S8gPbmOAQvD207S3
+      mj5XB1NWXoLDPPbOKxKJSKHsOPGvldljSdP4SL+IWQAUq4MMm0pL2166ImGU5k7mzZ+Dpqkc
+      UbovFCQM4HfT5urEb0jG+jFb/nj60vUuvoqQaoTD4SOeiVkAjEmZzFm6ijlAyN/Lti076T4w
+      RJLNTWd3hPJsFbzddJkcLARaUgtZNnsyntZ17KraQ8rSaSSNUSneaDRKmdQ44TWM8UeKAUVR
+      sFgsRzwXo0FwmN7WWjZv2EprZzfd7W10DXgwJ9vJn15K83sf0ORqY9vbmzCVlmA9rLmF0xfi
+      NHWwp+4AwUg8bV3EyShGATDgyMrDYerj/Zee5eV1DTinLKQ8LxFr9nwWFw3x7suvstcymxUz
+      HCiYSUtLwWIxYrA6mFY2ibB/AE9ADnXExEileHFCSaV4IeKYBEDomgRA6JoEQOiaBEDomgRA
+      6JoEQOiaBEDomgRA6JoEQOiaBEDomgRA6JoEQOiaBEDomgRA6JoEQOiaBEDo2rhvite0MAF/
+      kKPfTqZgtphRFZm3R8S3cQcg6KvnyZ8+SeNRXy3jxh9dS7H0fxHnxh0Ao7mAldddhxc3Gx97
+      AfWSy1iQlkCkYxOPbkwhLZqtFOIEGXcAVEMi+WVlQDvbQgkk5xZRWpAChUEKH3+NZjRmyuyd
+      Is5FYWKsNGYsNvCnJ55iqDwDraeO2rQ8Pi+dX5wEonAWKIEpK67i4rnZePu78SSWc/X1K8mS
+      /i9OAlGZGlG1OZmxcClTTlex2cyEtPiZDk+IY4nCHiBEz47n+en3vsu9D7xBV/d6fvbgiwye
+      UtNtiVNVFALQx8bnd1P8mXOZDBhzCyhqaqNljF8IhIgnUQiARiRiISk5AQUNf4eLJouRJBkE
+      i5NAFMYATs75fAU//sOrdLe42fw9E8UXfJ1C6f/iJDCBAGj43P0MeTUseUu47dZJ7N/fi5qa
+      RUF2NiFAhsIi3k0gAGF6mqvZ2ehHGWpkc72LD2tvlHL9PV+SSyFE3JtAAAxkTJrJgqwwEV8Z
+      xfN8hw17E8mUzi9OAuMOQDg0QGNNHUNjvT7eFQvxKZpAAHrY8fbb7MdP2/Z6lPIK8hJMaO42
+      qlxTuH9BBcmyFxBxbtwBMFvLuPquu4AD/OPup3F+80bOTLejDW9nzb01x3ESdJjNL72Gr2AR
+      i2bmYQoHad7+Fhv2dGPOncX5y6aRaPLR2NhLenoWKSlmhg/so3HISOnkImwmSZkYvyj8DmAh
+      OcVFTXUXHp8PT/8A3Z3deD7JoloET90HbBqM4G4bIAwEureyvt7AnCWLyHNX8fbuITQCdHf3
+      4fMFCXv72dOwD79ixzKe00zaCLte/C1fvvgcFi89h2u//xh1XR5a3v8Nly1YwIJ//lt1Jf/1
+      buvhC+Lv2MZ/ffc6zl5yFl/8zm+panMTiYRo3PAEt112DmecdRE/eHw9Q2ENd+M6Hvj2Fzhz
+      8Rms+Nw3+cv6ffikqF/cicrVoGddcxFbHniA2/8WJBJSyV95IxUfu2HWCPQ38MZuO6uWpdFc
+      ffDZ9p17KDj7WipyVMgK8dSLDfhmlY0uE8HVsAO3YTKLypyMq1B82EvAeSY//dP15CSF2fzY
+      AzyzoZ5vX3wbz2y+7eBb/D288vtHSZ2Sd9hynbz41LsknXMnr/+4mIZXHuOlN94j+5IKXnyi
+      mqv+34s8mOZh7Zo7eGz9aVyVlcyKW37J136Zg7f2Fe595V3ml+RSmpUwjkaLEyUqF8OZ85dy
+      571z6OzoRLOlk5mejPIxt0NqATd76zvJnTWNVEMTzQCE8Ywkkekc3THZMskKNTMIMNTOpg8a
+      8Wt2Fq8uxXaM1YfD4WMUy05i2uwkQMPd66JfSSYjxUow6D80cB/Y8wK7TCv5t7Qgfv/ok8EA
+      YZsFe4JKKBTG7sgiI2IjHPJhsDswEyEYVsnIL6PDECS1aAqpQMQzSEefl4ykNEyE8R9aoT78
+      a2HqWNI07SPffxQC0M17f/gLr9a28WER+nJu+fkNTFbH6qVh+jvaGVAcTMtzEOptGn1eQVE4
+      8ioi1XDwOM1oIdVhp7ezC29Qg2OMMhRFQVWPdXTXyKNf+THvaiksPP8KLp+Rj/Gf79d6WPdy
+      NwtvOI2Ew9dhyWT52XN45W+/4QsPdZMz9Wy+9MUlOJNTOHulkz//8Cv8pM/M4lXXcO3MFFQV
+      Gl74Ad//y17yZp7HFZevxplq4ZjNOgV93Ibw0/XRfhGFADiYd9k1lI/eIO+pX8tf9k0i+1if
+      O+jDVbuRNza08s5bLxIOjDDisTPoMHNa4jBtLT6mFJuJ9DfTbkpnMYAtg/JJJZC/g62bqnCc
+      NZd0q+GoMVBV9WPKpBZz1U/vZeXgASrf3MSmvUV8bkExqqLhrnyLHUXL+V629cgvJzRCw/Z6
+      jLOv5P6rs2mvfJvq3Q2UZpewe0cPy27+ETcle9nx/NO8u28JX5iVSMmKb3L/nH5cNZvYVLWD
+      koKV5Cbrq3zrsTdEny5F4SP9IgoBMGJ3pGMffaSlzCbh6XW0X7eUsrFCYLIzfeX1TF958GGP
+      awvbt9tYsrgMQ6+X6tfWsrE3k5HmerJmXILl0MGJQubkORS7K9m1q5mFsyZhNR7nF+wdwjUc
+      wpGVS0luDhlDO/nezjYuP70YJejijS0RVl00+aNfzGAbNf0hyqdPpbjYQZa3jnc+6KCvtYtN
+      gxXcXVGCwxImNDOVx7Y2MJBbgGZJpmBSJrnOMFseWo+r101ustwtHU+iEIABtr+0lk3N3YQB
+      zd/JnmA2VxzHGmxJeZRMMWEEjI5pLJ3rpWZ/P5aSJZxekggEyM/Pxm43oxhNTC6dgtYdJDye
+      syojnWx6bS07G9oJaQaUCMxZcRaqGqFr1y76MnNZkp566O2RziqerDTxuZWFzMvZxtqn1/B6
+      UMOASs781TgLc1lo+x0P/ryKCGBSEzjjc05cu9/nrfeqOeAPYlBByzmdLIft+NsrTqgoBMBC
+      VkkFc9ILODjsVFh0YSF5x3HoZ0vKpThp9IFqJKdiITkVh7/DSl5e9qFH5pQcpqaMs7mp+SxZ
+      uhxnfjvekIHkzCIqphSiKgr2otlcUGAiLeGf51cjNH/wCk2mKzCYUpl97gUkFdTR3OPF7sij
+      rHwyaXYTq2/4MkV1+xkMqGQUTOW0sgxCOQtZnuDENejFaEtj8pRyclOs42y0OFEUTdMmeHI6
+      jHfIhyHRhllVQAsy4g5iSUrAGIMBUCgUQtO0jxkDfEKRNl56vpmF55xORrJl4uvToYGn/sbQ
+      M8/GuhkAGLOzyH3w14ceK4qiRGGE0s37f3qVOs/o6aWQi9ceeZnmU+E3HzWfCy9dIp3/FDaB
+      Q6AI7p5Gqqs28f6GSpx5Jlw2C/iaebN6mBnRa6MQJ8yEbojxDLZTU1lN68AB+rdtxW0xgWJm
+      /jWrKYqn079CjGH8AdBUnMVLufG75ZT9YQuZV51LqSFMQDORkGCJu7vBtICP4K/ujHUzDjF+
+      9gbU8lmxbobujTsAkUiQpp3r8WTM46yvXoyneQt/e/kDusOpzFh+ASumZUaznRMXb2OSeGuP
+      To17EBzyu9jw0nr6FRMKXja/8Dg1/nymZnp4/fn1DMgfWJwExh2ASLibwd4sMlLDeDqrWF+d
+      x2VfvozzL1lOYVMr7dFspRAnyLgPgSy2WSy/oIrf/Z9v4jbm84W7vs2iVJXerXX0L5v1CS6H
+      FiL2xh0AxWBm2oqv8vMzryOsmLCajEAIc+Eibi52cPTL1ISILxO7FEIxYLYcfoOHkaSMHJLG
+      XECI+BKFa4EijPR04LGkYw90sHNnPeTPZkFphtQIE3EvCgHo572HH8Vz2Y2k73iKtTs6aRtp
+      onjNV6VGgIh7UbgWaIT+3kTsJjfNnQMsuvrzLPYM45IT3eIkEIUAOKmYPsRfH1jDjr4CJtv8
+      NDkdZMsgWJwEonAIZGX2tXdw34XDGBNTMXsPcM1N5XL4I04KUQiAh7bdB7BNnYTDbITEScx0
+      TnytQnwaonAIFKTp3Wd4q2Fw4qsS4lMWhQAkMv3CZQTf+itv1nfT399Pf7+b4ERvNBPiUxCV
+      eYG2PPcqb+9oIli5mT8BMJO7HrtdLocQcS8KAchh1e33sGriKxLiUxeFAPSw7om/88YRFWLK
+      uP6eL1I85sxwQsSHKAQghRkrLyF/WQCAkfo3eLq5UCrEiJNCFAJgIjkzh+TRR1rmApJeWIdL
+      O3PsmeGEiBNRCMAgNa+/Q2Vrz8GZ4XwHqPOn8dmJr1iIEy4qe4CUnHxKLKmjM8OVMe3sycc1
+      M5wQsRKF3wFs5FdMpawoA4JBrGm5lE/KjLtZIYQ4mijsAYK0r3+S+/7RiDPHjr/7eXxTLuWH
+      Ny9HpoIV8S4KAehly9oDLPvad7iiPI1Q32Z+fvdGWrXllMthkIhzUTgEUjEYfPj8B3u7Egzg
+      UZRorFiIEy4KewAn5159BvesuZvKJAcM9ZFz/teYLFt/cRKYwMxwXvo6+gkAJM/l1m/l09rc
+      jzkji5yMTEIgA2ER98YdgJC/ied+8wT7AAjjGw5iSrSOdvopfOUn18leQMS9cQfAaC5i9Q03
+      jBbE3suT/1HJGd+4imIAbOQcs/NrBIc6qHzvdTbuOUDQlMbspeezbG4hFs1P7bv/4LXKdizF
+      S7j6MwtxWDxUVx8gN7eQtDQLg/trqOk3MXt6BYlmSZkYv3EHQDXYyS0tHX3kw2HZR35pKaXH
+      XOpDwbCB3BnnctOqXEzuNt7dtI361nQmB9ex1X0a13/jMvo3P8srm4u5alkCHo+XUChMYMjF
+      zsZOMioWY5fOLyZoAmMAD91tPRysC9PBUGCIzpaW0WqRVjILnFjHnBdIwebIpMgBRMIM+ryY
+      rKkkWg107umidMl5pFpVUhcsZPsLLXgpH10uTOueakibTkluotx2LyZs/GMAXyPPrvkjDQB4
+      cHkGObBmDQfniavgll/eSOnH9NC+vRt5a+NOPJZCZsyeRV66mQaPnTTH6ElUqwOHr44BgJ56
+      XqxcjyF7JhdflI/lGOsOBoOEQqEjnwz442pQHggG0LzeWDfjhPvI3yGGtIiG91++8/GPAayl
+      XHH77fiP+qqF9E+weU7OP43l5xcx0Olif2sDHenpGAwhgiENDApoESJWG1aAlAKWLJ9NW/V6
+      WvsW4Mg2M9btBkajEaPxyI+mKRx2v0LsGY0mVMvx1h6L4O2q5elHHuLxV2qwlp/Nbf/+DVbM
+      yCTYXcff///9/Pm1OpKmXsQPH7iDGf+co1LT8HTs4N57H2BzfyH33Pt/WZhvJdhbz1/X/JLH
+      367DXHw237rz65xXkU7P7jd46P7/5J0WM1fe+StuXlGCZZw/7PgM8bPZURQFy7985+MfA6hW
+      0nNzx7l0hIDPQyBkIjUjG0eqjcHBrfS4esnOCrNtTx9lM1IItO2i3ZrJmQCmBBzpueQsm8vG
+      bRtxLVlEXor5qIdBiqJ8pEK5pihxFQD1KG38eINUb24gY9ntvHJ3Cd0bnuLp7ZuZVXw+dc/8
+      ntbSW/ifu+ZgHu4jYFU5tHp/D5vXb+SsK/6Duycd4NcPP4Hz+19k8L1KHBfezes/KKJv8+Pc
+      t24PZ2SW8M47lcy+9Xd8f4qHP/5iDa9Nvo9Lp4yvxKsST9NjKh+tXP+/RSAOd0GXoJIAAAAA
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='44' name='KPI' width='192'>
+      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
+      lKX9F2WQf6tGid+vAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='159' name='Physical activity by teacher quality' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
